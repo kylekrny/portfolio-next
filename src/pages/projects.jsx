@@ -13,7 +13,7 @@ const projects = [
   {
     name: 'Listing Guesser',
     description:
-      'Creating technology to empower civilians to explore space on their own terms.',
+      'a small MVP I made to test the concept of a listing guesser game utilizing Remix. Not fully refined, but functional and quirky.',
     link: {
       href: 'https://list-guesser.web.app',
       label: 'list-guesser.web.app',
@@ -23,7 +23,7 @@ const projects = [
   {
     name: 'Economic Impact of Data',
     description:
-      'Creating technology to empower civilians to explore space on their own terms.',
+      'An global marketing campaign for Splunk. I was responsible for managing the production of all web assets.',
     link: {
       href: 'https://www.splunk.com/en_us/campaigns/economic-impact-of-data.html',
       label: 'splunk.com',
@@ -33,14 +33,14 @@ const projects = [
   {
     name: '10DLC Compliant SMS',
     description:
-      'High performance web animation library, hand-written in optimized WASM.',
+      'Architected a sms system that was 10DLC compliant. We beat our competitors to market by a year.',
     link: { href: 'https://leadsherpa.com/sms/', label: 'leadsherpa.com' },
     logo: logoLeadSherpa,
   },
   {
     name: 'Propstack',
     description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
+      'An list management system allowing our customers to effectively manage millions of records and target the right leads.',
     link: {
       href: 'https://leadsherpa.com/propstack/',
       label: 'leadsherpa.com',
@@ -50,14 +50,14 @@ const projects = [
   {
     name: 'French Squirrel Store',
     description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
+      'French Squirrel sells blood sugar balancing berets and bateaux, they needed a site to match their loving and caring energy.',
     link: { href: 'https://frenchsquirrel.com', label: 'frenchsquirrel.com' },
     logo: logoFrenchSquirrel,
   },
   {
     name: 'Jones Bodywork',
     description:
-      'The operating system that powers our Planetaria space shuttles.',
+      'Jeff Jones a great bodyworker was in need of a site that showed his down to earth personality. This was also my first paid project.',
     link: { href: 'https://jonesbodywork.com', label: 'jonesbodywork.com' },
     logo: logoJones,
   },
