@@ -86,7 +86,7 @@ export default function Projects() {
       </Head>
       <SimpleLayout
         title="The building blocks that have made my career."
-        intro="I have had the pleasure of working in many different team dynamics, many different clients and many different industries. Here is a showcase of some of the work I have done. If you have any questions please feel free to reach out."
+        intro="I have had the pleasure of working in many different team dynamics, with many different clients and in many different industries. Here is a showcase of some of the work I have done. If you have any questions please feel free to reach out."
       >
         <ul
           role="list"

@@ -43,15 +43,17 @@ export default function Uses() {
           <ToolsSection title="Workstation">
             <Tool title="15” MacBook Pro, i7, 16gb ram (2017)">
               I live by the <em>if it ain&apos;t broke don&apos;t fix it</em>{' '}
-              philosophy. Originally, a hand-me-down from my mom, I have spent the
-              last 3 years working with it, and hope to get a few more out of
+              philosophy. Originally, a hand-me-down from my mom. I have spent
+              the last 3 years coding with it, and hope to get a few more out of
               it.
             </Tool>
             <Tool title='LG UltaFine 5k 27"'>
-              This is one gorgeous monitor. As my fiance says "you can see every
-              freckles and crease in a person&apos;s skin." Originally,
-              purchased off craigslist it worked great for the first year. Now
-              it has a green line down the middle.
+              This is one gorgeous monitor. As my fiance says{' '}
+              <q>
+                you can see every freckles and crease in a person&apos;s skin.
+              </q>{' '}
+              Originally, purchased off Craigslist it worked great for the first
+              year. Now it has a green line down the middle.
             </Tool>
             <Tool title='LG WQHD 34" ergo  Ultrawide'>
               Comes with a built in monitor arm, cable management and decent
@@ -65,7 +67,7 @@ export default function Uses() {
             </Tool>
             <Tool title="Craigslist manual standing desk and office chair">
               The desk creaks when you raise it, the chair provides some sort of
-              lumbar support, but I only paid $50.00 for both. Beggers
+              lumbar support, but I only paid $50.00 for both. Beggars
               can&apos;t be choosers right?
             </Tool>
           </ToolsSection>
