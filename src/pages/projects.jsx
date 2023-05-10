@@ -3,47 +3,63 @@ import Image from 'next/image'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoAnimaginary from '@/images/logos/animaginary.svg'
-import logoCosmos from '@/images/logos/cosmos.svg'
-import logoHelioStream from '@/images/logos/helio-stream.svg'
-import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
+import logoLeadSherpa from '@/images/logos/lead-sherpa-logo.jpeg'
+import logoSplunk from '@/images/logos/splunk-logo.svg'
+import logoPersonal from '@/images/logos/personal-logo.svg'
+import logoFrenchSquirrel from '@/images/logos/french-squirrel-logo.svg'
+import logoJones from '@/images/logos/jones-logo.svg'
 
 const projects = [
   {
-    name: 'Planetaria',
+    name: 'Listing Guesser',
     description:
       'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
-    logo: logoPlanetaria,
+    link: {
+      href: 'https://list-guesser.web.app',
+      label: 'list-guesser.web.app',
+    },
+    logo: logoPersonal,
   },
   {
-    name: 'Animaginary',
+    name: 'Economic Impact of Data',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: {
+      href: 'https://www.splunk.com/en_us/campaigns/economic-impact-of-data.html',
+      label: 'splunk.com',
+    },
+    logo: logoSplunk,
+  },
+  {
+    name: '10DLC Compliant SMS',
     description:
       'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoAnimaginary,
+    link: { href: 'https://leadsherpa.com/sms/', label: 'leadsherpa.com' },
+    logo: logoLeadSherpa,
   },
   {
-    name: 'HelioStream',
+    name: 'Propstack',
     description:
       'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoHelioStream,
+    link: {
+      href: 'https://leadsherpa.com/propstack/',
+      label: 'leadsherpa.com',
+    },
+    logo: logoLeadSherpa,
   },
   {
-    name: 'cosmOS',
-    description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoCosmos,
-  },
-  {
-    name: 'OpenShuttle',
+    name: 'French Squirrel Store',
     description:
       'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoOpenShuttle,
+    link: { href: 'https://frenchsquirrel.com', label: 'frenchsquirrel.com' },
+    logo: logoFrenchSquirrel,
+  },
+  {
+    name: 'Jones Bodywork',
+    description:
+      'The operating system that powers our Planetaria space shuttles.',
+    link: { href: 'https://jonesbodywork.com', label: 'jonesbodywork.com' },
+    logo: logoJones,
   },
 ]
 
@@ -62,7 +78,7 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects - Spencer Sharp</title>
+        <title>Projects - Kyle Kearney</title>
         <meta
           name="description"
           content="Things I’ve made trying to put my dent in the universe."
