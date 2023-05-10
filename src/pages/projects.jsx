@@ -81,7 +81,7 @@ export default function Projects() {
         <title>Projects - Kyle Kearney</title>
         <meta
           name="description"
-          content="Things I’ve made trying to put my dent in the universe."
+          content="The building blocks that have made my career."
         />
       </Head>
       <SimpleLayout

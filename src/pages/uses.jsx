@@ -32,7 +32,7 @@ export default function Uses() {
         <title>Uses - Kyle Kearney</title>
         <meta
           name="description"
-          content="Software I use, gadgets I love, and other things I recommend."
+          content="My tools I use. functional. practical. probably second hand."
         />
       </Head>
       <SimpleLayout
