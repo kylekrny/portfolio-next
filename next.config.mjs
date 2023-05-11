@@ -9,6 +9,8 @@ const nextConfig = {
   experimental: {
     scrollRestoration: true,
   },
+
+  output: 'standalone',
 }
 
 const withMDX = nextMDX({
@@ -16,6 +18,16 @@ const withMDX = nextMDX({
   options: {
     remarkPlugins: [remarkGfm],
     rehypePlugins: [rehypePrism],
+  },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'storage.googleapis.com',
+        port: '',
+        pathname: '/**',
+      },
+    ],
   },
 })
 

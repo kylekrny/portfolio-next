@@ -15,11 +15,11 @@ import {
 
 import logoLeadSherpa from '@/images/logos/lead-sherpa-logo.jpeg'
 import logoBoosterApps from '@/images/logos/booster-apps-logo.png'
-import image1 from '@/images/photos/coffee.jpg'
-import image2 from '@/images/photos/mountains.jpg'
-import image3 from '@/images/photos/amanda.jpg'
-import image4 from '@/images/photos/sunset.jpg'
-import image5 from '@/images/photos/maisy.jpg'
+import image1 from '../../public/images/photos/coffee.jpg'
+import image2 from '../../public/images/photos/mountains.jpg'
+import image3 from '../../public/images/photos/amanda.jpg'
+import image4 from '../../public/images/photos/sunset.jpg'
+import image5 from '../../public/images/photos/maisy.jpg'
 import { formatDate } from '@/lib/formatDate'
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
@@ -246,12 +246,10 @@ export default function Home({ articles }) {
   return (
     <>
       <Head>
-        <title>
-          Kyle Kearney - Front end developer
-        </title>
+        <title>Kyle Kearney - Front end developer</title>
         <meta
           name="description"
-          content="I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms."
+          content="I'm Kyle, a front end developer based in Denver, Colorado. I have 6+ years of experience working on a wide range of projects. From small start ups to leading teams for multi-national conglomerates."
         />
       </Head>
       <Container className="mt-9">
@@ -260,7 +258,9 @@ export default function Home({ articles }) {
             Front end developer, pretzel maker and workout buddy.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I'm Kyle, a front end developer based in Denver, Colorado. I have 6+ years of experience working on a wide range of projects. From small start ups to leading teams for multi-national conglomerates.
+            I&apos;m Kyle, a front end developer based in Denver, Colorado. I have 6+
+            years of experience working on a wide range of projects. From small
+            start ups to leading teams for multi-national conglomerates.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
