@@ -78,7 +78,7 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects - Kyle Kearney</title>
+        <title>Projects - Kyle</title>
         <meta
           name="description"
           content="The building blocks that have made my career."

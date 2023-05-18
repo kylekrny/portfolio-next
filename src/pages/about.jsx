@@ -41,10 +41,10 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About - Kyle Kearney</title>
+        <title>About - Kyle</title>
         <meta
           name="description"
-          content="I’m Kyle Kearney. I write clean code, make pretzels and build legos."
+          content="I’m Kyle. I write clean code, read economics book and obsess over pixels."
         />
       </Head>
       <Container className="mt-16 sm:mt-32">
@@ -61,8 +61,8 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I’m Kyle Kearney. I write clean code, make pretzels and build
-              legos.
+              I’m Kyle. I write clean code, read economics book and obsess over
+              pixels.
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
