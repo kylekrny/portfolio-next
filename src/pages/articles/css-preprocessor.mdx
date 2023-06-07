@@ -1,0 +1,112 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+export const meta = {
+  author: 'Kyle Krny',
+  date: '2023-06-07',
+  title: 'What is a CSS Preprocessor?',
+  description:
+    'Exploring how and why to use a preprocessor. CSS Preprocessor is a scripting language that extends CSS and is compiled into regular CSS syntax.',
+}
+
+export default (props) => <ArticleLayout meta={meta} {...props} />
+
+# What actually is a CSS Preprocessor?
+
+CSS Preprocessor is a scripting language that extends CSS and is compiled into regular CSS syntax. CSS is a very basic language and can become very cluttered with duplicate code as websites grow. Preprocessors aim to solve that problem by adding a more advanced way of writing CSS that extends beyond basic functionality.
+
+There are a few different CSS preprocessing languages. The most popular ones are SASS, SCSS, LESS and Stylus. For todays blog post we are going to focus on SCSS. SCSS provides a expressive and syntax-oriented approach to preprocessing. SCSS is fully compliant allowing for CSS to be directly imported into it.
+
+
+## Benefits of using a pre-processors
+
+### Variables 
+The ability to define a color or a font once and utilize it throughout your entire CSS sheet makes it super simple to write and more importantly maintain your code.
+
+```
+$lightBlue: #3F88C5
+
+.card-container {
+   color: $lightBlue;
+}
+
+```
+
+### Nesting 
+CSS Preprocessors allow you to nest elements in your style sheets like you would with your HTML/XML. This means instead of having to write all this to style a navigation:
+
+```
+nav { 
+   height: 20px
+}
+
+nav ul {
+    padding-left: 15px;
+}
+
+nav li {
+    color: red;
+}
+
+nav li a:hover {
+    color: blue;
+}
+```
+You can write this:
+
+```
+nav {
+    height: 20px;
+    ul: {
+        padding-left: 15px;
+        li: {
+            color: red;
+            a:hover {
+                color: blue;
+            }
+        }
+    }
+}
+
+```
+
+### Parent selectors 
+Unlike in standard CSS where you can only access nested children elements, CSS Pre-processors allow you to access the parent with a selector. For Sass you can do it with the `&` like this:
+```
+.link {
+    &:hover {
+        color: red;
+    }
+}
+```
+### Partials
+To develop unique and custom websites you have to generate massive amounts of CSS. Partials allows you to break up your style sheets like you would your code. With Sass you can declare a partial with an underscore `_` and then import the file `@import` like you would in javascript.
+
+
+### Mixins
+Mixins allow you to define a pre set group of styles such as the styles you would do for a flex-container and then utilize them with a simple `@include`
+
+```
+@mixin flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: none;
+}
+
+
+.container {
+    @include flex;
+}
+
+```
+### Functions and Operators 
+Preproccessors offer built in functions that enable us to calculate everything from random numbers. To size to even conditionals.
+
+```
+@function shake($a, $b) {
+    $result: 1
+    @for $_ from 1 through $b {
+        $rsult: $result * $a;
+    }
+    @return $result
+}
+```
