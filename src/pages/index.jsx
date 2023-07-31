@@ -139,24 +139,10 @@ function Resume() {
   let resume = [
     {
       company: 'Lead Sherpa',
-      title: 'Technical Product Owner',
-      logo: logoLeadSherpa,
-      start: '2022',
-      end: '2023',
-    },
-    {
-      company: 'Lead Sherpa',
-      title: 'Lead Front End Engineer',
-      logo: logoLeadSherpa,
-      start: '2021',
-      end: '2022',
-    },
-    {
-      company: 'Lead Sherpa',
       title: 'Front End Engineer',
       logo: logoLeadSherpa,
       start: '2020',
-      end: '2021',
+      end: '2023',
     },
     {
       company: 'Booster Apps',
