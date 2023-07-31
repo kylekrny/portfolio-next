@@ -66,7 +66,7 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                I am a front end engineer with 6+ years of experience. I have
+                I am a front end engineer with 3+ years of experience. I have
                 worked in a wide array of team environments, tech stacks and
                 application types. From leading the web marketing effort at a
                 multi billion dollar conglomerate, to wearing all the hats at
