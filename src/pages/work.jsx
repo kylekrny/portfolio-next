@@ -88,7 +88,7 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects - Kyle</title>
+        <title>Work - Kyle</title>
         <meta
           name="description"
           content="The building blocks that have made my career."
