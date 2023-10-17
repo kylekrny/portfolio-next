@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import clsx from 'clsx'
-import { Button } from '@/components/Button'
 import { Experience } from '@/components/Experience'
 
 import { Container } from '@/components/Container'

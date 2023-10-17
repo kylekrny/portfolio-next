@@ -29,7 +29,7 @@ export default function Uses() {
   return (
     <>
       <Head>
-        <title>Uses - Kyle</title>
+        <title>Setup - Kyle</title>
         <meta
           name="description"
           content="My tools I use. functional. practical. probably second hand."
@@ -37,7 +37,7 @@ export default function Uses() {
       </Head>
       <SimpleLayout
         title="My tools I use. functional. practical. probably second hand."
-        intro="For those looking to compare apples to apples - surprise you won! While my mouth salivates at the idea of a Herman Miller setup, saner heads pervail. For now..."
+        intro="For those looking to compare apples to apples - your apples are better. While my mouth salivates at the idea of a Herman Miller setup, saner heads pervail. For now..."
       >
         <div className="space-y-20">
           <ToolsSection title="Workstation">
@@ -50,25 +50,22 @@ export default function Uses() {
             <Tool title='LG UltaFine 5k 27"'>
               This is one gorgeous monitor. As my fiance says{' '}
               <q>
-                you can see every freckles and crease in a person&apos;s skin.
+                you can see every freckle and crease in a person&apos;s skin.
               </q>{' '}
               Originally, purchased off Craigslist it worked great for the first
-              year. Now it has a green line down the middle.
-            </Tool>
-            <Tool title='LG WQHD 34" ergo  Ultrawide'>
-              Comes with a built in monitor arm, cable management and decent
-              speakers. It is the perfect work horse for making those pixels
-              perfect.
+              year. Now it has a dead line of pixels down the middle.
             </Tool>
             <Tool title="Logitech MX Mini Keys">
               While the old me considered switch colors like political parties.
               The new me takes a simpler approach. Hot keys? check. tactile key
               stroke? check. Long battery life? check.
             </Tool>
-            <Tool title="Craigslist manual standing desk and office chair">
-              The desk creaks when you raise it, the chair provides some sort of
-              lumbar support, but I only paid $50.00 for both. Beggars
-              can&apos;t be choosers right?
+            <Tool title="SHW Automatic Standing Desk">
+              Nice automatic standing desk, that has never been risen in the
+              time I own it.
+            </Tool>
+            <Tool title="Poppin Task Chair">
+              Purchased 4 of them off craigslist for $100, sold 3 for $80 each. Now I have a comfy chair and an extra $140 in my pocket.
             </Tool>
           </ToolsSection>
           <ToolsSection title="Development tools">
