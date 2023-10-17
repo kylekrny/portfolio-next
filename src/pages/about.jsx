@@ -100,25 +100,11 @@ export default function About() {
           <div className="lg:pl-20">
             <ul role="list">
               <SocialLink
-                href="https://www.instagram.com/kyle.krny/"
-                icon={InstagramIcon}
-                className="mt-4"
-              >
-                Follow on Instagram
-              </SocialLink>
-              <SocialLink
                 href="https://github.com/kylekrny"
                 icon={GitHubIcon}
                 className="mt-4"
               >
                 Follow on GitHub
-              </SocialLink>
-              <SocialLink
-                href="https://www.linkedin.com/in/kylekrny/"
-                icon={LinkedInIcon}
-                className="mt-4"
-              >
-                Follow on LinkedIn
               </SocialLink>
               <SocialLink
                 href="mailto:hello@kyleswork.com"
