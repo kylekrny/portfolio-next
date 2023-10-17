@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
 import logoLeadSherpa from '@/images/logos/lead-sherpa-logo.jpeg'
-import logoSplunk from '@/images/logos/splunk-logo.svg'
+import logoSplunk from '@/images/logos/splunk-logo.png'
 import logoPersonal from '@/images/logos/personal-logo.svg'
 import logoFrenchSquirrel from '@/images/logos/french-squirrel-logo.svg'
 import logoJones from '@/images/logos/jones-logo.svg'
@@ -19,6 +19,16 @@ const projects = [
       label: 'list-guesser.web.app',
     },
     logo: logoPersonal,
+  },
+  {
+    name: "Splunk's .conf",
+    description:
+      "Splunk's annual global user conference. I was responsible for the production of all web assets.",
+    link: {
+      href: 'https://conf.splunk.com',
+      label: 'splunk.com',
+    },
+    logo: logoSplunk,
   },
   {
     name: 'Economic Impact of Data',
@@ -94,11 +104,11 @@ export default function Projects() {
         >
           {projects.map((project) => (
             <Card as="li" key={project.name}>
-              <div className="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
+              <div className="relative z-10 flex h-12 w-12 items-center justify-center bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
                 <Image
                   src={project.logo}
                   alt=""
-                  className="h-8 w-8"
+                  className="h-12 w-12"
                   unoptimized
                 />
               </div>
