@@ -4,13 +4,12 @@ import Link from 'next/link'
 import clsx from 'clsx'
 import { Button } from '@/components/Button'
 import { Experience } from '@/components/Experience'
-import logoLeadSherpa from '@/images/logos/lead-sherpa-logo.jpeg'
-import logoBoosterApps from '@/images/logos/booster-apps-logo.png'
+
 import { Container } from '@/components/Container'
 import {
   GitHubIcon,
 } from '@/components/SocialIcons'
-import portraitImage from '../../public/images/portrait.jpg'
+import portraitImage from '@/images/photos/amanda.jpg'
 
 function SocialLink({ className, href, children, icon: Icon }) {
   return (
