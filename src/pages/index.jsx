@@ -2,13 +2,13 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import clsx from 'clsx'
-
+import { Button } from '@/components/Button'
+import { Experience } from '@/components/Experience'
+import logoLeadSherpa from '@/images/logos/lead-sherpa-logo.jpeg'
+import logoBoosterApps from '@/images/logos/booster-apps-logo.png'
 import { Container } from '@/components/Container'
 import {
   GitHubIcon,
-  InstagramIcon,
-  LinkedInIcon,
-  TwitterIcon,
 } from '@/components/SocialIcons'
 import portraitImage from '../../public/images/portrait.jpg'
 
@@ -41,7 +41,7 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About - Kyle</title>
+        <title>Hey it&apos;s Kyle</title>
         <meta
           name="description"
           content="I’m Kyle. I write clean code, read economics books and obsess over pixels."
@@ -66,50 +66,46 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                I am a front end engineer with 3+ years of experience. I have
+                I am a frontend engineer with 4+ years of experience. I have
                 worked in a wide array of team environments, tech stacks and
-                application types. From leading the web marketing effort at a
+                application types. From helping lead the web marketing effort at a
                 multi billion dollar conglomerate, to wearing all the hats at
                 small start-ups.
               </p>
               <p>
-                I spent two and a half years growing at Lead Sherpa. I spent the
-                time perfecting my craft with React and learning the ins and out
-                of managing a product and more importantly building a team. My
-                role shifted from from frontend engineer, to lead engineer,
-                ending with technical product owner. While I do enjoy the
-                business aspect of the product role, solving problems and
-                working along side my fellow engineer truly brings me great joy.
+                I spent two and a half years growing at Lead Sherpa. My time was spent
+                perfecting my craft with React and learning the best practices
+                of developing a maintainable and most importantly developing a collaborative culture. While at Lead Sherpa I was promoted from frontend engineer, to senior frontend engineer.
               </p>
               <p>
                 Minimalism and simplicity are key values in every aspect of my
                 life, especially development. Clean, readable code and quality
                 test coverage are the fundamental attributes to a quality
-                application. I primarily code in Javascript and Ruby, but have
-                experience with a few other languages.
+                application. Professionally, I have coded with Javascript; however, I have experience in a plethora of other languages.
               </p>
               <p>
-                When I am not working you can find me, cooking, learning or
-                training for my first triathlon. I am a life long learner, AFOL
-                and personal finance nerd, You can checkout my current
+                When I am not working you can find me, cooking, reading or
+                training for a triathlon. I am a life long learner, AFoL (Adult Fan of Legos)
+                and personal finance nerd. You can checkout my current
                 projects on my GitHub. If you have a question, looking for
-                a dev, or a friend feel free to reach out.
+                a dev or a friend feel free to reach out.
               </p>
             </div>
           </div>
           <div className="lg:pl-20">
+            <Experience />
             <ul role="list">
               <SocialLink
                 href="https://github.com/kylekrny"
                 icon={GitHubIcon}
-                className="mt-4"
+                className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
               >
                 Follow on GitHub
               </SocialLink>
               <SocialLink
                 href="mailto:hello@kyleswork.com"
                 icon={MailIcon}
-                className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
+                className="mt-4"
               >
                 hello@kyleswork.com
               </SocialLink>
