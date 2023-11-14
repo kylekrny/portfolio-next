@@ -63,7 +63,7 @@ function BriefcaseIcon(props) {
       end: '2021',
     },
     {
-      company: 'Frontend Engineer',
+      company: 'Frontend Support Engineer',
       title: 'Booster Apps',
       logo: logoBoosterApps,
       start: '2019',
